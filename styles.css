@@ -1,0 +1,19 @@
+body {
+    background-color: #f9eaf3; /* light baby pink */
+    color: #806d5a; /* mocha */
+}
+
+header, footer {
+    background-color: #ffeef8; /* slightly darker pink */
+    color: #504945; /* dark mocha */
+}
+
+.btn, .form-control {
+    background-color: #ffeef8;
+    border-color: #f9eaf3;
+}
+
+.btn:hover, .form-control:focus {
+    background-color: #fddce6; /* medium baby pink */
+    border-color: #806d5a;
+}

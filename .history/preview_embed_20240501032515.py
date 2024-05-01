@@ -1,0 +1,11 @@
+import requests
+
+video_url = 'https://www.tiktok.com/@username/video/1234567890123456789'
+
+oembed_url = f'https://www.tiktok.com/oembed?url={video_url}'
+
+response = requests.get(oembed_url)
+data = response.json()
+
+preview_image_url = data['thumbnail_url']
+print(preview_image_url)

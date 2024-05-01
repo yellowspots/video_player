@@ -1,0 +1,16 @@
+/* Custom styles using Sky Blue and Sedona Orange */
+.bg-primary {
+    background-color: #87CEEB;
+}
+
+.text-primary {
+    color: #87CEEB;
+}
+
+.bg-secondary {
+    background-color: #D25F00;
+}
+
+.text-secondary {
+    color: #D25F00;
+}
